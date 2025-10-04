@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Tech Pulse</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">Tech Pulse</div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="posts.html" class="nav-link active">Blog</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="menu-toggle" aria-label="Toggle navigation menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+    </header>
+
+    <main class="page-content">
+        <!-- Screen 1: Blog Hero Section -->
+        <section class="blog-hero fade-in">
+            <h1 class="slide-up">Insights & Innovations</h1>
+            <p class="slide-up">Dive into our collection of articles on the latest tech trends.</p>
+            <div class="search-container bounce-in">
+                <input type="text" placeholder="Search articles...">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </section>
+
+        <!-- Screen 2: Featured Posts Section -->
+        <section class="featured-posts fade-in">
+            <h2 class="section-title">Featured Articles</h2>
+            <div class="post-grid">
+                <article class="featured-card">
+                    <img src="images/quantam computer.webp" alt="Featured Article 1">
+                    <div class="card-content">
+                        <h3>The Quantum Computing Revolution</h3>
+                        <p>An in-depth look at how quantum computing will change the future of technology.</p>
+                        <a href="#" class="read-more-button">Read Now <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="featured-card">
+                    <img src="images/decoging the metaverse.webp" alt="Featured Article 2">
+                    <div class="card-content">
+                        <h3>Decoding the Metaverse</h3>
+                        <p>Explore the potential and challenges of building the next digital frontier.</p>
+                        <a href="#" class="read-more-button">Read Now <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Screen 3: All Posts Grid Section -->
+        <section class="all-posts fade-in">
+            <h2 class="section-title">All Posts</h2>
+            <div class="post-grid">
+                <article class="post-card fade-in-item">
+                    <img src="images/A Guide to Web3 Development.webp" alt="Post 1">
+                    <h3>A Guide to Web3 Development</h3>
+                    <p>Understanding the basics of decentralized web applications.</p>
+                    <a href="#" class="read-more">Read More &rarr;</a>
+                </article>
+                <article class="post-card fade-in-item">
+                    <img src="images/The Ethics of AI in Healthcare.webp" alt="Post 2">
+                    <h3>The Ethics of AI in Healthcare</h3>
+                    <p>Discussing the moral implications of using artificial intelligence in medicine.</p>
+                    <a href="#" class="read-more">Read More &rarr;</a>
+                </article>
+                <article class="post-card fade-in-item">
+                    <img src="images/Top 5 Programming Languages in 2025.webp" alt="Post 3">
+                    <h3>Top 10 Programming Languages in 2025</h3>
+                    <p>A breakdown of the most in-demand languages for developers.</p>
+                    <a href="#" class="read-more">Read More &rarr;</a>
+                </article>
+                <article class="post-card fade-in-item">
+                    <img src="images/A Deep Dive into Cybersecurity.webp" alt="Post 4">
+                    <h3>A Deep Dive into Cybersecurity</h3>
+                    <p>Protecting your data in an increasingly connected world.</p>
+                    <a href="#" class="read-more">Read More &rarr;</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Tech Pulse. All Rights Reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

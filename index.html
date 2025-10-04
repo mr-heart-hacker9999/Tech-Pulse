@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Blog - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">Tech Pulse</div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="posts.html" class="nav-link">Blog</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="menu-toggle" aria-label="Toggle navigation menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+    </header>
+
+    <main class="page-content">
+        <section class="hero-section fade-in">
+            <h1>Welcome to Tech Pulse</h1>
+            <p>Your source for the latest in technology, from AI to quantum computing.</p>
+            <a href="posts.html" class="cta-button slide-up">Read Our Latest Posts</a>
+        </section>
+
+        <section class="latest-posts fade-in">
+            <h2>Latest Articles</h2>
+            <div class="post-grid">
+                <article class="post-card fade-in-item">
+                    <img src="images/ai image.webp" alt="Artificial Intelligence">
+                    <h3>The Rise of A.I. in Everyday Life</h3>
+                    <p>Explore how artificial intelligence is changing the way we live and work.</p>
+                    <a href="#" class="read-more">Read More &rarr;</a>
+                </article>
+                <article class="post-card fade-in-item">
+                    <img src="images/web-development.webp" alt="Web Development">
+                    <h3>Beginner's Guide to Web Development</h3>
+                    <p>A step-by-step guide to help you start your journey in web development.</p>
+                    <a href="#" class="read-more">Read More &rarr;</a>
+                </article>
+                <article class="post-card fade-in-item">
+                    <img src="images/quantam computer.webp" alt="Quantum Computing">
+                    <h3>Decoding Quantum Computing</h3>
+                    <p>An introduction to the complex world of quantum computing and its future.</p>
+                    <a href="#" class="read-more">Read More &rarr;</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="newsletter-section fade-in">
+            <h2>Join Our Community</h2>
+            <p>Stay updated with our latest articles and insights. Subscribe to our newsletter!</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit" class="cta-button">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Tech Pulse. All Rights Reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
